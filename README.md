@@ -1,4 +1,13 @@
-# FCC-File-Metadata
-freeCodeCamp Apis and Microservices Projects - Exercise Tracker https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/file-metadata-microservice/
 
-https://www.freecodecamp.org/fcc8f20330d-0943-47a5-b3b1-824b1d91c95d
+# API Project: File Metadata Microservice for freeCodeCamp
+
+###    User stories:
+1. I can submit a form that includes a file upload.
+2. The from file input field  has the "name" attribute set to "upfile". We rely on this in testing.
+3. When I submit something, I will receive the file name and size in bytes within the JSON response
+
+### Usage :
+* Go to the main page, and upload a file using the provided form.
+
+### Hint:
+* To handle the file uploading you should use the [multer](https://www.npmjs.com/package/multer) npm package.
